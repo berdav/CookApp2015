@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">mainpage</Property><Property name="id">1455096109774_687</Property><Property name="width">1080</Property><Property name="height">1920</Property><Property name="dimBackground"/><Property name="transparentBackground">true</Property><Property name="backgroundColor">#FFFFFFFF</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="nz.nwatson.AndroidLollipop:ActionBar" id="ddff492acd384c7c97821c409d1e37d6" transform="matrix(1,0,0,1,0,0)"><p:metadata><p:property name="box"><![CDATA[1080,168]]></p:property><p:property name="fillColor"><![CDATA[#6423CCFF]]></p:property></p:metadata>
+
+			 <defs>
+			<linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="shadowFill" id="cd8909808554435880c0e5695a7a472d">
+
+				<stop offset="0" style="stop-color:#000000;stop-opacity:0.259" p:name="stop1" id="1eb8fcef9d44403e97b097c57638f845"/>
+				<stop offset="1" style="stop-color:#000000;stop-opacity:0" p:name="stop2" id="4f92b5f1c995423f9de6d5a6a40adad4"/>
+			</linearGradient>
+			 </defs>
+			 <rect p:name="bg" id="2d945dc69c6e419b9bb0a0c982e0622f" width="1080" height="168" style="fill: rgb(100, 35, 204); fill-opacity: 1;"/>
+		 <rect width="1" height="6" style="fill: url(#cd8909808554435880c0e5695a7a472d)" p:name="shadow" id="cb7e51550ed24904bf36f21e5c2f44ae" transform="translate(0,168) scale(1080,1)"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="nz.nwatson.MaterialIcons:menu" id="723050163357473c9f0bdb2c60689478" transform="matrix(1,0,0,1,40,30)"><p:metadata><p:property name="box"><![CDATA[108,108]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property></p:metadata>
+      <rect style="fill: #000000; fill-opacity: 0; stroke: none;" x="0" y="0" p:name="bgRect" id="df272c11cb8e44d9a615c5261581ea36" width="108" height="108"/>
+      <g p:name="icon" id="40b93cc4e9ca4d13b74009d1c2e629b0" transform="scale(4.5,4.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1;">
+        <path stroke-width="0.2" stroke-linejoin="round" d="M 3,6L 21,6L 21,8L 3,8L 3,6 Z M 3,11L 21,11L 21,13L 3,13L 3,11 Z M 3,16L 21,16L 21,18L 3,18L 3,16 Z "/>
+      </g>
+    </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="nz.nwatson.MaterialIcons:magnify" id="2780a560a41a4789b3221a0a91fad4fe" transform="matrix(1,0,0,1,940.0000610351562,30)"><p:metadata><p:property name="box"><![CDATA[108,108]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property></p:metadata>
+      <rect style="fill: #000000; fill-opacity: 0; stroke: none;" x="0" y="0" p:name="bgRect" id="138aaff4698c48ccbb6f5addce04ed87" width="108" height="108"/>
+      <g p:name="icon" id="6f966e679f5b4df4a3518ad78baf42b7" transform="scale(4.5,4.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1;">
+        <path stroke-width="0.2" stroke-linejoin="round" d="M 9.5,3C 13.0899,3 16,5.91015 16,9.5C 16,11.1149 15.411,12.5923 14.4362,13.7291L 14.7071,14L 15.5,14L 20.5,19L 19,20.5L 14,15.5L 14,14.7071L 13.7291,14.4362C 12.5923,15.411 11.1149,16 9.5,16C 5.91015,16 3,13.0899 3,9.5C 3,5.91015 5.91015,3 9.5,3 Z M 9.5,5.00001C 7.01472,5.00001 5,7.01473 5,9.50001C 5,11.9853 7.01472,14 9.5,14C 11.9853,14 14,11.9853 14,9.50001C 14,7.01473 11.9853,5.00001 9.5,5.00001 Z "/>
+      </g>
+    </g></Content></Page></Pages></Document>
