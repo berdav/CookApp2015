@@ -1,11 +1,11 @@
 Schermate:
 
 - Social:
-	profilo,
-	homepage,
-	stream,
-	messaggi/tag utenti,
-	...
+?	profilo,
+?	homepage,
+???	stream,
+?	messaggi/tag utenti,
+	aiuto su passo ricetta
 - Ricette:
 	schermata di presentazione ricetta,
 	schermata di passi per cucinare,
