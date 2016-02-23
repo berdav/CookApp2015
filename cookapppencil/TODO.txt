@@ -1,19 +1,9 @@
 Schermate:
 
-- Social:
-?	profilo,
-?	homepage,
-???	stream,
-?	messaggi/tag utenti,
-	aiuto su passo ricetta
 - Ricette:
-	schermata di presentazione ricetta,
-	schermata di passi per cucinare,
 	utente allergico aggiunto (warning),
 	menu contestuale cucina,
 	suggerimenti allergie.
-- Lista della spesa:
-	chiedi agli amici un ingrediente.
 - Modalità aiuto
 - Informazioni
 - Impostazioni
