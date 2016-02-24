@@ -2,8 +2,10 @@ Schermate:
 
 - Ricette:
 	utente allergico aggiunto (warning),
-	menu contestuale cucina,
-	suggerimenti allergie.
+	suggerimenti allergie (manca rimuovi ricetta)
 - Modalità aiuto
 - Informazioni
 - Impostazioni
+
+Relazione: indicare che se il tel è capovolto non rompe li cojoni
+
