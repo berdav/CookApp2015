@@ -1,6 +1,7 @@
 Schermate:
 
 - Ricette:
+	Gestire ricette concorrenti,
 	utente allergico aggiunto (warning),
 	suggerimenti allergie (manca rimuovi ricetta)
 - Modalità aiuto
