@@ -1,8 +1,7 @@
 Schermate:
 
-- Ricette:
-	utente allergico aggiunto (warning),
-	suggerimenti allergie (manca rimuovi ricetta)
+PIATTO UNICOOOOOO (biango)
+
 - Modalità aiuto
 - Informazioni
 - Impostazioni
