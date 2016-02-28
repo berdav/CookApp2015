@@ -1,0 +1,4 @@
+Schermate:
+	schermata aiuto interazione audio
+Relazione:
+	inserire commento a riguardo della modalita' non disturbare
