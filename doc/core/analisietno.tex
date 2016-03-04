@@ -1,6 +1,223 @@
+% TODO:
+% --   domande età e primo approccio tecnologia, da vedere.
+% --   da sistemare grafico età
+% --   da sistemare grafico bravura pc (al posto di smartphone)
+% --   cambiare titolo grafico età primo approccio tecnologia con:
+%                "Età del primo approccio alla tecnologia"
 Per analizzare il target demografico per il quale viene effettuato lo studio dell'applicazione CookApp, 
 si è effettuata un'analisi etnografica. Tale tipologia di analisi è fondamentale per ottenere dagli utenti
 alcune informazioni fondamentali, di cui si terrà in seguito conto nella progettazione della UI e delle interazioni 
 dell'applicazione. Al fine di ottenere informazioni sulla suddivisione demografica dei potenziali utenti, si è creato
-un form tramite il software google forms\cite{GoogleModules}, che consente di creare, condividere ed analizzare in modo semplice
+un form anonimo tramite il software google forms\cite{GoogleModules}, che consente di creare, condividere ed analizzare in modo semplice
 questionari di varia natura.
+
+\subsection{Il sondaggio}
+Il sondaggio proposto è composto da varie domande mirate alla
+profilazione degli utenti a cui il progetto si relazionerà, vertendo
+principalmente sull'enumerazione degli interessati in base a:
+\begin{itemize}
+	\item Età;
+	\item sesso;
+	\item relazione con la tecnologia;
+	\item tecnologia con cui è stato effettuato il primo approccio;
+	\item competenze culinarie;
+	\item interesse e corrente utilizzo di applicazioni per il supporto alla
+	cucina/spesa.
+\end{itemize}
+
+Per raggiungere tale scopo sono state poste le seguenti semplici domande a
+risposta multipla.
+
+\subsubsection{Domande relative al profilo sociale degli utenti}
+\begin{quote}
+	\textbf{Sesso}
+\end{quote}
+La domanda posta permette di individuare la percentuale di interesse in
+relazione al sesso.  I risultati hanno rilevato un leggero vantaggio di persone
+di sesso femminile partecipanti al sondaggio.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_sesso}
+\end{figure}
+
+\begin{quote}
+	\textbf{Età}
+\end{quote}
+Per individuare l'età media dell'utenza a cui ci rivolgeremo e per un'iniziale stima del livello
+di competenza tecnologica che andremo ad affrontare le possibili risposte sono
+state suddivise fasce:
+\begin{itemize}
+		\item Meno di 20 anni, ``nativi digitali", persone che si
+			trovano a stretto contatto con i computer e gli
+			smartphone moderni fin dai primi anni di vita.
+
+		\item Da 20 a 30 anni, persone che hanno acquisito molta
+			familiarità con il mondo tecnologico, principalmente
+			grazie all'avvento dei video-giochi e le prime connessioni
+			internet a banda larga.
+
+		\item Da 30 a 40 anni, fascia composta da persone con molta conoscenza tecnica,
+			legata principalmente al lavoro e alla cultura
+			personale.
+
+		\item Da 40 a 50 anni, come la fascia precedente, persone che
+			sono state introdotte al mondo tecnologico non in età
+			scolare.
+
+		\item Da 50 a 60 anni, persone la quale familiarità tecnologica è
+			stata introdotta durante la loro professione.
+			Presentano inoltre piccoli disturbi legati all'età.
+
+		\item Più di 60 anni, ``pensionati digitali",  persone il quale rapporto con la
+			tecnologia avviene solamente per cultura personale e con
+			notevoli disturbi legati all'età.
+\end{itemize}
+
+I risultati hanno evidenziato una discrepanza nel numero di partecipanti
+relativi ad ogni fascia, con maggiori interessati nella fascia comprendente le
+persone tra i 20 e i 30 anni.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_eta}
+\end{figure}
+
+\begin{quote}
+	\textbf{Qual è il tuo livello di istruzione?}
+\end{quote}
+La domanda è utile per individuare la competenza di linguaggio degli utenti,
+che, nel caso l'applicazione utilizzi termini troppo forbiti, potrebbe divenire
+un ostacolo all'usabilità della stessa.  Anche in questo caso le risposte sono
+state raggruppate in varie fasce:
+
+\begin{itemize}
+	\item Licenza elementare;
+	\item licenza media;
+	\item diploma di scuola superiore;
+	\item laurea o superiore.
+\end{itemize}
+Anche in questo caso ,data anche l'età media dei partecipanti al sondaggio, è
+sussistito uno squilibrio a vantaggio del diploma di scuola superiore.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_istruzione}
+\end{figure}
+
+\begin{quote}
+	\textbf{Che lavoro fai?}
+\end{quote}
+In questo caso la domanda è utile sia per classificare il livello di competenza
+linguistica degli utenti, sia per un'approssimativa stima della classe sociale
+di questi ultimi.  Purtroppo non è stato possibile porre la domanda in un modo
+appropriato senza ottenere disturbi significativi da parte dei partecipanti.
+
+\begin{itemize}
+	\item Studente;
+	\item operaio;
+	\item impiegato;
+	\item libero professionista;
+	\item imprenditore;
+	\item pensionato o casalinga;
+	\item disoccupato.
+\end{itemize}
+
+Il numero degli studenti e impiegati è equiparabile, risultano
+invece un po' meno presenti le altre categorie.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_occupazione}
+\end{figure}
+
+\begin{quote}
+	\textbf{Hai figli e/o nipoti? E se si, cucini per loro?}
+\end{quote}
+
+La presenza di un figlio implica la necessità di diversificare i piatti ed una
+competenza di dominio più elevata rispetto alla media.\\
+
+Dai grafici si deduce che la metà dei partecipanti possiede figli o nipoti, e
+la maggior parte dei genitori cucina per i parenti.
+\begin{figure}[H]
+\centering
+\begin{minipage}{.48\textwidth}
+	\includegraphics[scale=0.57]{img/chart_hai_figli_o_nipoti}
+\end{minipage}
+\hfill
+\begin{minipage}{.49\textwidth}
+	\includegraphics[scale=0.57]{img/chart_cucini_per_i_parenti}
+\end{minipage}
+\end{figure}
+
+\subsubsection{Domande relative alle capacità tecnologiche degli utenti}
+\begin{quote}
+	\textbf{A che età hai avuto il primo approccio con la tecnologia?}
+\end{quote}
+
+Ricalcando la domanda posta per l'età del soggetto, vengono proposti i seguenti
+scaglioni:
+
+\begin{itemize}
+	\item Fino a 6 anni;
+	\item dai 6 ai 12 anni;
+	\item dai 12 ai 20 anni;
+	\item dai 20 ai 30 anni;
+	\item dai 30 ai 50 anni;
+	\item dopo i 50 anni.
+\end{itemize}
+
+Dal grafico si evince che la maggior parte degli utenti si è avvicinata alla
+tecnologia durante la scuola dell'obbligo.  Ciò li rende tecnologicamente
+competenti.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_eta_primo_approccio}
+\end{figure}
+
+\begin{quote}
+	\textbf{Con che genere di dispositivi?}
+\end{quote}
+
+Per migliorare l'analisi e collocare gli utenti nel giusto scaglione di
+approccio alla tecnologia è stata chiesta loro la tipologia di dispositivo con
+il quale sono entrati in questo mondo.
+
+\begin{itemize}
+	\item Computer;
+	\item smartphone;
+	\item tablet, proprio dei nativi digitali;
+	\item altro .
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_tipo_primo_approccio_dispositivi}
+\end{figure}
+
+\begin{quote}
+	\textbf{Quanto ti ritieni competente con l'utilizzo di
+	computer/smartphone?}
+\end{quote}
+
+Per valutare la competenza tecnologica sono state quindi poste all'utente,
+tramite scala Likert a 5 valori (da per niente a moltissimo),
+due domande di autovalutazione del suo livello di utilizzo di device
+quali smartphone e computer.
+\\
+È abbastanza semplice notare, in entrambe le scale di valutazione,
+come gli utenti si affermino su un livello
+medio-alto, con una maggioranza sui valori $3$ e $4$.
+\begin{figure}[H]
+\centering
+\begin{minipage}{.48\textwidth}
+	\includegraphics[scale=0.45]{img/chart_bravura_smartphone}
+\end{minipage}
+\hfill
+\begin{minipage}{.49\textwidth}
+	\includegraphics[scale=0.45]{img/chart_bravura_smartphone}
+\end{minipage}
+\end{figure}
+
+% DA FARE "hai un problema al pc / cell che fai?"
