@@ -4,6 +4,9 @@
 % --   da sistemare grafico bravura pc (al posto di smartphone)
 % --   cambiare titolo grafico età primo approccio tecnologia con:
 %                "Età del primo approccio alla tecnologia"
+% --   sistemare grafici uso app cucina
+% --   sistemare anche usi app spesa
+% --   dati incrociati e correlazioni
 Per analizzare il target demografico per il quale viene effettuato lo studio dell'applicazione CookApp, 
 si è effettuata un'analisi etnografica. Tale tipologia di analisi è fondamentale per ottenere dagli utenti
 alcune informazioni fondamentali, di cui si terrà in seguito conto nella progettazione della UI e delle interazioni 
@@ -54,7 +57,7 @@ state suddivise fasce:
 
 		\item Da 20 a 30 anni, persone che hanno acquisito molta
 			familiarità con il mondo tecnologico, principalmente
-			grazie all'avvento dei video-giochi e le prime connessioni
+			grazie all'avvento dei videogiochi e le prime connessioni
 			internet a banda larga.
 
 		\item Da 30 a 40 anni, fascia composta da persone con molta conoscenza tecnica,
@@ -110,7 +113,7 @@ sussistito uno squilibrio a vantaggio del diploma di scuola superiore.
 \end{quote}
 In questo caso la domanda è utile sia per classificare il livello di competenza
 linguistica degli utenti, sia per un'approssimativa stima della classe sociale
-di questi ultimi.  Purtroppo non è stato possibile porre la domanda in un modo
+di questi ultimi. Purtroppo non è stato possibile porre la domanda in un modo
 appropriato senza ottenere disturbi significativi da parte dei partecipanti.
 
 \begin{itemize}
@@ -220,4 +223,137 @@ medio-alto, con una maggioranza sui valori $3$ e $4$.
 \end{minipage}
 \end{figure}
 
-% DA FARE "hai un problema al pc / cell che fai?"
+\begin{quote}
+	\textbf{Hai un problema al PC/telefono cellulare, che fai?}
+\end{quote}
+
+Al fine di inquadrare l'approccio degli utenti alla tecnologia, si è 
+scelto di chiedere a questi ultimi come si comportino di fronte ai problemi con
+i propri dispositivi. Le possibili risposte, in ordine decrescente di competenza da esse denotata
+è:
+\begin{itemize}
+ \item Cerco di risolvere da solo;
+ \item Cerco di capire e localizzare il problema per dare più informazioni possibili all'assistenza ma non tocco niente;
+ \item Chiamo l'assistenza o un amico;
+ \item Lo butto e ne compro un altro.
+\end{itemize}
+
+La maggior parte degli utenti intervistati dimostra intraprendenza: più dei due terzi cercano almeno di comprendere
+il problema da soli, mentre più della metà tenta addirittura di risolvere i problemi.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_reazione_problema_pc}
+\end{figure}
+
+\subsubsection{Domande relative alla capacità culinaria}
+
+\begin{quote}
+	\textbf{Quanto ti ritieni competente in cucina?}
+\end{quote}
+
+Utilizzando una scala Likert con valori fra 1 e 5 è stato chiesto agli utenti di valutare la propria competenza culinaria.
+Tale informazione è utile a inquadrare gli utenti rispetto alla loro competenza specifica di dominio. Un cuoco esperto, infatti,
+avrà di certo requisiti diversi da uno alle prime armi.
+\\
+La distribuzione delle autovalutazioni ricalca una distribuzione normale con media 3. Gli utenti si divido infatti in modo
+pressoché uniforme fra utenti competenti e utenti che non sono abili in cucina.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_bravura_cucina}
+\end{figure}
+
+\begin{quote}
+	\textbf{Degli amici si auto-invitano a casa tua per una cena, che fai?}
+\end{quote}
+
+Come nel caso della domanda precedente, anche in questo caso viene parzialmente misurata l'affinità degli utenti con la cucina.
+Oltre a tale aspetto, si vuole comprendere quale sia l'approccio degli utenti all'improvvisazione culinaria, oltretutto
+nel caso in cui si debba cucinare non solo per sé stessi. Le risposte possibili da noi previste sono le seguenti:
+\begin{itemize}
+ \item Inizio a sperimentare ai fornelli, voglio sorprendere tutti;
+ \item Cerco qualche ricetta facile per stasera;
+ \item Vado al supermercato per cercare qualcosa di semi pronto;
+ \item Ordino qualcosa.
+\end{itemize}
+
+Dai risultati ottenuti la maggior parte (circa il 75\%) degli utenti è pronta a improvvisare una cena anche per i propri amici, mostrando
+iniziativa e la volontà di cucinare per altri. Fra questi ultimi, la maggioranza cerca ricette facili, caso d'uso molto affine
+ad un'applicazione di supporto alla cucina.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_reazione_cena}
+\end{figure}
+
+\begin{quote}
+	\textbf{Dove fai la spesa?}
+\end{quote}
+Il luogo o i luoghi nei quale viene effettuata la spesa da parte degli utenti. Tale informazione è doppiamente utile: da una parte,
+è certamente correlata al ceto sociale di appartenenza, dall'altra, ci da informazioni sul livello di passione per il cibo del soggetto.
+Le opzioni da noi previste sono:
+\begin{itemize}
+ \item Direttamente dal produttore al mercato;
+ \item Ordino la spesa online;
+ \item Piccoli commercianti;
+ \item Supermercato.
+\end{itemize}
+Come era del resto prevedibile, la stragrande maggioranza degli utenti utilizzano i supermercati come fonti di cibo, mentre sono in minoranza quelli che
+scelgono le altre opzioni. Questa informazione ci aiuta a comprendere come si possano aiutare gli utenti nell'effettuare la spesa.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_dove_fai_la_spesa}
+\end{figure}
+
+\begin{quote}
+	\textbf{Hai allergie o intolleranze al cibo?}
+\end{quote}
+
+Con questa domanda si intende valutare l'impatto di allergie varie sulla popolazione totale. Si è scelto inoltre di contare chi ha intolleranze multiple.
+Dai risultati ottenuti emerge come l'impatto di allergie sulla popolazione sia minoritario ma non trascurabile.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/chart_allergie}
+\end{figure}
+
+\begin{quote}
+	\textbf{Usi app o siti web per cucinare? Se hai risposto no, ti interesserebbe un'app per cucinare?}
+\end{quote}
+
+Tramite tali domande si intende valutare da una parte la diffusione di software per l'ausilio alla cucina, dall'altra
+l'interesse per un'eventuale applicazione fra chi non utilizza tali software. La maggior parte degli utenti utilizza un applicazione,
+chi non utilizza strumenti software è in gran parte interessato ad una applicazione di questo tipo.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.48\textwidth}
+	\includegraphics[scale=0.45]{img/chart_usi_app_cucina}
+\end{minipage}
+\hfill
+\begin{minipage}{.49\textwidth}
+	\includegraphics[scale=0.45]{img/chart_vorresti_app_cucina}
+\end{minipage}
+\end{figure}
+
+\begin{quote}
+	\textbf{Usi app o siti web per fare la spesa? Se hai risposto no, ti interesserebbe un'app per fare la spesa?}
+\end{quote}
+
+Come nel caso precedente, si vuole misurare l'utilizzo e l'interesse verso un'applicazione che aiuti gli utenti a fare
+la spesa. Dai risultati emerge uno scarso utilizzo di applicazioni per fare la spesa, nonché un interesse molto meno marcato
+che nel caso della domanda precedente.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.48\textwidth}
+	\includegraphics[scale=0.45]{img/chart_usi_app_spesa}
+\end{minipage}
+\hfill
+\begin{minipage}{.49\textwidth}
+	\includegraphics[scale=0.45]{img/chart_vorresti_app_spesa}
+\end{minipage}
+\end{figure}
