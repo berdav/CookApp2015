@@ -6,25 +6,25 @@
 %                "Età del primo approccio alla tecnologia"
 % --   sistemare anche usi app spesa (colori)
 % --   dati incrociati e correlazioni (Finire?)
-Per analizzare il target demografico per il quale viene effettuato lo studio dell'applicazione CookApp, 
-si è effettuata un'analisi etnografica. Tale tipologia di analisi è fondamentale per ottenere dagli utenti
-alcune informazioni fondamentali, di cui si terrà in seguito conto nella progettazione della UI e delle interazioni 
+Al fine di ottenere una corretta segmentazione demografica dei potenziali utenti dell'applicazione, si è effettuata
+un'analisi etnografica.
+Tale tipologia di analisi risulta necessaria per ottenere 
+alcune informazioni fondamentali dagli utenti, di cui si terrà conto in seguito durante la fase di progettazione della UI e delle interazioni 
 dell'applicazione. Al fine di ottenere informazioni sulla suddivisione demografica dei potenziali utenti, si è creato
 un form anonimo tramite il software google forms\cite{GoogleModules}, che consente di creare, condividere ed analizzare in modo semplice
 questionari di varia natura.
 
 \subsection{Il sondaggio}
 Il sondaggio proposto è composto da varie domande mirate alla
-profilazione degli utenti a cui il progetto si relazionerà, vertendo
-principalmente sull'enumerazione degli interessati in base a:
+classificazione dei potenziali utenti rispetto ad alcune caratteristiche
+fondamentali:
 \begin{itemize}
 	\item Età;
 	\item sesso;
 	\item relazione con la tecnologia;
-	\item tecnologia con cui è stato effettuato il primo approccio;
+	\item dispositivi con cui è stato effettuato il primo approccio alla tecnologia;
 	\item competenze culinarie;
-	\item interesse e corrente utilizzo di applicazioni per il supporto alla
-	cucina/spesa.
+	\item esperienza o interesse rispetto alle applicazioni dedicate alla cucina o alla spesa.
 \end{itemize}
 
 Per raggiungere tale scopo sono state poste le seguenti semplici domande a
@@ -34,9 +34,9 @@ risposta multipla.
 \begin{quote}
 	\textbf{Sesso}
 \end{quote}
-La domanda posta permette di individuare la percentuale di interesse in
-relazione al sesso.  I risultati hanno rilevato un leggero vantaggio di persone
-di sesso femminile partecipanti al sondaggio.
+La domanda posta permette di individuare la percentuale di partecipanti rispetto 
+al sesso.  I risultati hanno rilevato un leggero vantaggio di utenti
+di sesso femminile.
 
 \begin{figure}[H]
 	\centering
@@ -46,26 +46,22 @@ di sesso femminile partecipanti al sondaggio.
 \begin{quote}
 	\textbf{Età}
 \end{quote}
-Per individuare l'età media dell'utenza a cui ci rivolgeremo e per un'iniziale stima del livello
-di competenza tecnologica che andremo ad affrontare le possibili risposte sono
-state suddivise fasce:
+AL fine di valutare l'età media dei potenziali utenti rispetto al primo approccio ai computer si sono individuate le seguenti fasce d'età:
 \begin{itemize}
 		\item Meno di 20 anni, ``nativi digitali", persone che si
 			trovano a stretto contatto con i computer e gli
 			smartphone moderni fin dai primi anni di vita.
 
 		\item Da 20 a 30 anni, persone che hanno acquisito molta
-			familiarità con il mondo tecnologico, principalmente
-			grazie all'avvento dei videogiochi e le prime connessioni
-			internet a banda larga.
+			familiarità con i computer durante la propria infanzia o nella
+			prima adolescenza.
 
-		\item Da 30 a 40 anni, fascia composta da persone con molta conoscenza tecnica,
-			legata principalmente al lavoro e alla cultura
-			personale.
+		\item Da 30 a 40 anni, una parte di popolazione che ha avuto accesso
+			a computer o altri calcolatori durante l'adolescenza o nei primi anni
+			dell'età adulta.
 
-		\item Da 40 a 50 anni, come la fascia precedente, persone che
-			sono state introdotte al mondo tecnologico non in età
-			scolare.
+		\item Da 40 a 50 anni, persone che hanno avuto in maggioranza il primo contatto con i device nei primi anni 
+			della loro età lavorativa.
 
 		\item Da 50 a 60 anni, persone la quale familiarità tecnologica è
 			stata introdotta durante la loro professione.
@@ -76,9 +72,9 @@ state suddivise fasce:
 			notevoli disturbi legati all'età.
 \end{itemize}
 
-I risultati hanno evidenziato una discrepanza nel numero di partecipanti
-relativi ad ogni fascia, con maggiori interessati nella fascia comprendente le
-persone tra i 20 e i 30 anni.
+Dai risultati possiamo evincere come i partecipanti al sondaggio siano per la maggior parte appartenenti alla fascia d'età compresa
+fra 20 e 30 anni. Tale distribuzione demografica dipende certamente dai metodi utilizzati per diffondere il sondaggio, che è stato
+condiviso via social network. Al fine di ridurre tale effetto, si sono contattati parenti di età diversa.
 
 \begin{figure}[H]
 	\centering
@@ -88,19 +84,18 @@ persone tra i 20 e i 30 anni.
 \begin{quote}
 	\textbf{Qual è il tuo livello di istruzione?}
 \end{quote}
-La domanda è utile per individuare la competenza di linguaggio degli utenti,
-che, nel caso l'applicazione utilizzi termini troppo forbiti, potrebbe divenire
-un ostacolo all'usabilità della stessa.  Anche in questo caso le risposte sono
-state raggruppate in varie fasce:
-
+Tale domanda è utile per individuare il livello di istruzione degli utenti, un parametro che ha un impatto sulla interazione con l'applicazione.
+I prerequisiti culturali necessari per utilizzare un'applicazione devono essere adeguati rispetto al livello medio di istruzione rilevato.
+È facile infatti intuire come una applicazione dedicata all'alta cucina, che faccia ampio uso di termini in lingua francese, possa
+risultare di difficile utilizzo per gli utenti meno istruiti.
+Rispetto all'istruzione si sono individuati i seguenti titoli di studio:
 \begin{itemize}
 	\item Licenza elementare;
 	\item licenza media;
 	\item diploma di scuola superiore;
 	\item laurea o superiore.
 \end{itemize}
-Anche in questo caso ,data anche l'età media dei partecipanti al sondaggio, è
-sussistito uno squilibrio a vantaggio del diploma di scuola superiore.
+Data anche l'età media dei partecipanti al sondaggio, si è riscontrato uno squilibrio nei confronti del diploma di scuola superiore.
 
 \begin{figure}[H]
 	\centering
@@ -110,10 +105,12 @@ sussistito uno squilibrio a vantaggio del diploma di scuola superiore.
 \begin{quote}
 	\textbf{Che lavoro fai?}
 \end{quote}
-In questo caso la domanda è utile sia per classificare il livello di competenza
-linguistica degli utenti, sia per un'approssimativa stima della classe sociale
-di questi ultimi. Purtroppo non è stato possibile porre la domanda in un modo
-appropriato senza ottenere disturbi significativi da parte dei partecipanti.
+La segmentazione degli utenti rispetto al loro impiego è una modalità non invasiva
+per ottenere informazioni sulla classe sociale di appartenenza dei partecipanti.
+Sebbene la classe sociale di appartenenza sia infatti un parametro molto interessante, ad esempio
+per valutare il livello di accesso alla tecnologia disponibile, non è possibile ottenere
+tale informazione dagli utenti senza introdurre bias o avversione nei confronti del sondaggio.
+Al fine di ottenere una valutazione, seppur approssimativa, si sono individuate le seguenti categorie lavorative:
 
 \begin{itemize}
 	\item Studente;
@@ -126,7 +123,7 @@ appropriato senza ottenere disturbi significativi da parte dei partecipanti.
 \end{itemize}
 
 Il numero degli studenti e impiegati è equiparabile, risultano
-invece un po' meno presenti le altre categorie.
+invece meno rappresentate le altre categorie.
 
 \begin{figure}[H]
 	\centering
@@ -141,7 +138,7 @@ La presenza di un figlio implica la necessità di diversificare i piatti ed una
 competenza di dominio più elevata rispetto alla media.\\
 
 Dai grafici si deduce che la metà dei partecipanti possiede figli o nipoti, e
-la maggior parte dei genitori cucina per i parenti.
+la maggior parte di essi cucina per i parenti.
 \begin{figure}[H]
 \centering
 \begin{minipage}{.48\textwidth}
@@ -171,8 +168,8 @@ scaglioni:
 \end{itemize}
 
 Dal grafico si evince che la maggior parte degli utenti si è avvicinata alla
-tecnologia durante la scuola dell'obbligo.  Ciò li rende tecnologicamente
-competenti.
+tecnologia durante la scuola dell'obbligo.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.6]{img/chart_eta_primo_approccio}
@@ -182,14 +179,13 @@ competenti.
 	\textbf{Con che genere di dispositivi?}
 \end{quote}
 
-Per migliorare l'analisi e collocare gli utenti nel giusto scaglione di
-approccio alla tecnologia è stata chiesta loro la tipologia di dispositivo con
-il quale sono entrati in questo mondo.
+Si è poi richiesto agli utenti di indicare quale fosse il primo calcolatore con il quale si è avuto
+un contatto. Tale informazione fornisce un aiuto per individuare le competenze tecnologiche rispetto ai vari device.
 
 \begin{itemize}
 	\item Computer;
 	\item smartphone;
-	\item tablet, proprio dei nativi digitali;
+	\item tablet;
 	\item altro .
 \end{itemize}
 
@@ -203,18 +199,17 @@ il quale sono entrati in questo mondo.
 	computer/smartphone?}
 \end{quote}
 
-Per valutare la competenza tecnologica sono state quindi poste all'utente,
-tramite scala Likert a 5 valori (da per niente a moltissimo),
-due domande di autovalutazione del suo livello di utilizzo di device
-quali smartphone e computer.
+Al fine di valutare la competenza tecnologica degli utenti con smartphone e computer, si è utilizzata
+una scala compresa fra 1 e 5, dove 1 indica la competenza minima, 5 quella massima. Tale autovaltazione,
+sebbene introduca certamente dei bias, risulta essere una misura interessante se non altro della competenza
+percepita.
 \\
-È abbastanza semplice notare, in entrambe le scale di valutazione,
-come gli utenti si affermino su un livello
-medio-alto, con una maggioranza sui valori $3$ e $4$.
+È interessante notare come, in entrambe le valutazioni,
+gli utenti si considerino su un livello medio-alto di competenza, con una maggioranza di valori pari a $3$ e $4$.
 \begin{figure}[H]
 \centering
 \begin{minipage}{.48\textwidth}
-	\includegraphics[scale=0.45]{img/chart_bravura_smartphone}
+	\includegraphics[scale=0.45]{img/chart_bravura_pc}
 \end{minipage}
 \hfill
 \begin{minipage}{.49\textwidth}
@@ -226,10 +221,9 @@ medio-alto, con una maggioranza sui valori $3$ e $4$.
 	\textbf{Hai un problema al PC/telefono cellulare, che fai?}
 \end{quote}
 
-Al fine di inquadrare l'approccio degli utenti alla tecnologia, si è 
-scelto di chiedere a questi ultimi come si comportino di fronte ai problemi con
-i propri dispositivi. Le possibili risposte, in ordine decrescente di competenza da esse denotata
-è:
+Al fine di valutare l'approccio degli utenti alla tecnologia, si è 
+chiesto a questi ultimi come si comportino di fronte ai problemi con
+i propri dispositivi. Le possibili risposte, in ordine decrescente di competenza da esse denotata, sono:
 \begin{itemize}
  \item Cerco di risolvere da solo;
  \item Cerco di capire e localizzare il problema per dare più informazioni possibili all'assistenza ma non tocco niente;
@@ -251,9 +245,9 @@ il problema da soli, mentre più della metà tenta addirittura di risolvere i pr
 	\textbf{Quanto ti ritieni competente in cucina?}
 \end{quote}
 
-Utilizzando una scala Likert con valori fra 1 e 5 è stato chiesto agli utenti di valutare la propria competenza culinaria.
+Utilizzando una scala con valori fra 1 e 5 è stato chiesto agli utenti di valutare la propria competenza culinaria.
 Tale informazione è utile a inquadrare gli utenti rispetto alla loro competenza specifica di dominio. Un cuoco esperto, infatti,
-avrà di certo requisiti diversi da uno alle prime armi.
+avrà di certo requisiti diversi rispetto a uno alle prime armi.
 \\
 La distribuzione delle autovalutazioni ricalca una distribuzione normale con media 3. Gli utenti si divido infatti in modo
 pressoché uniforme fra utenti competenti e utenti che non sono abili in cucina.
@@ -324,8 +318,8 @@ Dai risultati ottenuti emerge come l'impatto di allergie sulla popolazione sia m
 \end{quote}
 
 Tramite tali domande si intende valutare da una parte la diffusione di software per l'ausilio alla cucina, dall'altra
-l'interesse per un'eventuale applicazione fra chi non utilizza tali software. La maggior parte degli utenti utilizza un applicazione,
-chi non utilizza strumenti software è in gran parte interessato ad una applicazione di questo tipo.
+l'interesse per un'eventuale applicazione fra chi non utilizza tali software. La maggior parte degli utenti utilizza un'applicazione,
+chi non utilizza strumenti software è in gran parte interessato ad un'applicazione di questo tipo.
 
 \begin{figure}[H]
 \centering
@@ -358,18 +352,18 @@ che nel caso della domanda precedente.
 \end{figure}
 
 \subsection{Analisi combinata dei dati}
-Per ottenere una migliore profilazione degli utenti si è optato per combinare i
-dati precedentemente presentati nel seguente modo:
+Per ottenere ulteriori informazioni sugli utenti si sono considerati i
+dati aggregati nel seguente modo:
 
 \begin{quote}
 	\textbf{Competenze digitali per fascia d'età}
 \end{quote}
 I dati sono stati combinati per ottenere maggiori informazioni a riguardo
-dell'utilizzo da parte degli utenti degli smartphone, come è possibile intuire
-facilmente, la maggior parte dei giovani è molto capace con lo smartphone,
-mentre la maggior parte delle persone in età avanzata si attesta su valori
-bassi, le persone nelle fasce intermedie si sono dichiarate degli utilizzatori
-``normali" per quanto riguarda l'utilizzo di smartphone e computer.
+l'utilizzo da parte degli utenti degli smartphone. Come era prevedibile,
+la maggior parte dei giovani risulta essere competente con lo smartphone,
+mentre le persone in età avanzata si attestano su valori relativamente
+bassi. Le persone nelle fasce intermedie si sono dichiarate mediamente competenti
+per quanto riguarda l'utilizzo di smartphone e computer.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=\textwidth]{img/heatmap_pc_eta}
@@ -383,13 +377,11 @@ bassi, le persone nelle fasce intermedie si sono dichiarate degli utilizzatori
 	\textbf{Autovalutazione della bravura in cucina con o senza l'utilizzo
 	di applicazioni}
 \end{quote}
-È stata inoltre valutata la capacità reale degli utenti con il quale ci si
-rapporterà, ottenendo dati a riguardo di un'effettiva miglioria apportata da
-un'eventuale applicazione negli utenti e gli interesse degli stessi nel
-utilizzarla.\\
-L'analisi dei dati ha prodotto risultati notevolmente a favore per l'utilizzo di
-un'applicazione, attestandosi su valori più alti per persone facenti uso di
-questo genere di programmi.
+
+È stato inoltre valutato il rapporto fra la competenza culinaria e l'utilizzo di applicazioni 
+di aiuto alla cucina. L'utilizzo di un'applicazione, contrariamente a quanto si potrebbe
+anticipare, è più frequente fra chi si considera abile in cucina.
+
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{img/chart_autovalutazione_e_usi_app}
 \end{figure}
